@@ -196,12 +196,10 @@ class SearchInputDecoration extends InputDecoration {
     Color? suffixIconColor,
     BoxConstraints? suffixIconConstraints,
     TextStyle? suffixStyle,
-    String? suffixText,
-    bool? maintainHintSize,
+    String? suffixText
   }) {
     return SearchInputDecoration(
       maintainHintHeight: maintainHintHeight ?? this.maintainHintHeight,
-      maintainHintSize: maintainHintSize ??false,
       cursorColor: cursorColor ?? this.cursorColor,
       textCapitalization: textCapitalization ?? this.textCapitalization,
       searchStyle: searchStyle ?? this.searchStyle,
